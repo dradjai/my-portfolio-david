@@ -1,4 +1,4 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row, Nav } from "react-bootstrap";
 
 export default function Footer() {
 
@@ -10,10 +10,10 @@ export default function Footer() {
     <Container>
       <h2><strong>Contact</strong></h2>
       <div className="contact-email">
-      <Row><a href="dradjaidev@gmail.com" target="_blank"><p>dradjaidev@gmail.com</p></a></Row>
+      <Row><a href="mailto:dradjaidev@gmail.com" target="_blank" rel="noreferrer"><p>dradjaidev@gmail.com</p></a></Row>
       </div>
       <div className="resume">
-      <Row><a href="/images/DavidRadjai_Resume_.pdf" target="_blank"><p>Resume</p></a></Row>
+      <button className="btn-footer"><Nav.Link href="/images/DavidRadjai_Resume_.pdf" rel="noreferrer" target="_blank">Resume</Nav.Link></button> 
       </div>
       <Row>
         <Col className="git-icon">
