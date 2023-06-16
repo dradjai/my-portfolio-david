@@ -1,0 +1,45 @@
+[
+  
+  {
+    "id": 1,
+    "title": "Mortgage Zone",
+    "content": "Full-Stack Mortgage Application - A mortgage resource center. I build using React js, React Bootstrap for the front-end and node.js, express and MongoDB for the back-end. Deployed on GCP",
+    "image": "/images/MortZonePortfolio.png",
+    "url": "https://mortgage-zone-web.web.app/"
+  },
+  {
+    "id": 2,
+    "title": "Much Todo App",
+    "content": "Front-End To Do application - created a full stack app with Full CRUD, Login and Signup functionality. Tech Stack: React, Javascript",    
+    "image": "/images/MuchTodoApp.png",
+    "url": "https://todo-app-front-web.web.app/"
+  },
+  {
+    "id": 3,
+    "title": "Quiz App",
+    "content": "Built a simple quiz app in react js. Created a json file with data for questions and answers.",    
+    "image": "/images/QuizApp.png",
+    "url": "https://quiz-app-dsr.web.app/"
+  },
+  {
+    "id": 4,
+    "title": "TV Show App",
+    "content": "TV show application using React and React Bootstrap that lets you add your favorite TV shows",    
+    "image": "/images/TvShows.png",
+    "url": "https://tv-shows-web-dr.web.app/"
+  },
+  {
+    "id": 5,
+    "title": "Sydney Clock",
+    "content": "This app tells you the time in Sydney Austrailia.  It was created using basic HTML, CSS and vanilla Javascript",    
+    "image": "/images/SydneyClock.png",
+    "url": "https://dradjai.github.io/Sydney-OperaHouse-Clock/"
+  },
+  {
+    "id": 6,
+    "title": "Top Drivers",
+    "content": "This app displays the top 3 Golf Drivers and describes each as well as shows a video regarding the drivers.  This website was created using basic HTML & CSS",
+    "image": "/images/TopDrivers.png",
+    "url": "https://dradjai.github.io/top-drivers/"
+  }
+]

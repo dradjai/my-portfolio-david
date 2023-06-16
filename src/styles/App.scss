@@ -1,0 +1,251 @@
+
+body {
+  background: linear-gradient(178.6deg, rgb(20, 36, 50) 11.8%, rgb(124, 143, 161) 83.8%);
+}
+
+.nav-menu {
+  background: linear-gradient(178.6deg, rgb(20, 36, 50) 11.8%, rgb(124, 143, 161) 83.8%) !important;
+  box-shadow: rgba(1, 1, 1, 0.35) 0px 10px 15px;
+
+
+}
+
+.resume-btn {
+  background-color: navy;
+  border-radius: 25px;
+  border: black;
+
+}
+.resume-btn:hover {
+  background-color: black;
+  border: 1px solid white;
+  transform: translate(0px, -3px);
+}
+
+section#home.hero {
+  background-image: url('../../public/images/hero.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode:lighten;
+  height: 700px;
+  box-shadow: rgba(1, 1, 1, 0.35) 0px 15px 25px;
+
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+  font-weight: 700;
+  font-size: large;
+}
+
+.profile-img {
+  border-radius: 75px;
+  margin-bottom: 75px;
+  height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+h1, h2, h3, h5, p {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.port-title {
+  text-align: center;
+  color: white;
+}
+
+
+.img-fluid {
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  border-radius: 3px;
+  box-shadow: rgba(1, 1, 1, 0.35) 0px 15px 25px;
+  
+}
+
+.three-items {
+  text-align: center;
+  padding: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.about-text {
+  margin-bottom: 75px;
+}
+
+
+.about-section {
+  padding: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.portfolio-col {
+  margin-bottom: 50px;
+}
+
+.portfolio-text {
+  margin-bottom: 100px; 
+}
+
+a:link, 
+a:visited { 
+  color: white;
+}
+.a:hover { 
+  text-decoration:none;
+}
+
+.title-modal {
+  color: black;
+  font-weight: 700;
+}
+
+.content-modal {
+  color: black;
+  font-weight: 700;
+}
+
+
+.skills-text {
+  margin-bottom: 100px;
+  margin-top: 150px;
+}
+
+.carousel-skill {
+  height: 300px;
+}
+.carousel-skill img {
+  height: 300px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.cert-text {
+  margin-bottom: 100px;
+  margin-top: 150px;
+}
+
+.carousel-cert {
+  height: 500px;
+  width: 1200px;
+  
+}
+
+.carousel-cert img {
+  height: 400px;
+  box-shadow: rgba(1, 1, 1, 0.35) 0px 15px 25px;
+  border-radius: 3px;
+  
+}
+
+.slider {
+  align-items: center;
+	background: #E3E3E3;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+
+}
+
+@mixin white-gradient {
+	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+}
+
+$animationSpeed: 50s;
+
+// Animation
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-250px * 7))}
+}
+
+
+// Styling
+.slider {
+	background: black;
+	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+	height: 100px;
+	margin: auto;
+	overflow:hidden;
+	position: relative;
+	width: 960px;
+  box-shadow: rgba(1, 1, 1, 0.35) 0px 15px 25px;
+  border-radius: 3px;
+	
+	&::before,
+	&::after {
+		@include white-gradient;
+		content: "";
+		height: 100px;
+		position: absolute;
+		width: 200px;
+		z-index: 2;
+	}
+	
+	&::after {
+		right: 0;
+		top: 0;
+		transform: rotateZ(180deg);
+	}
+
+	&::before {
+		left: 0;
+		top: 0;
+	}
+	
+	.slide-track {
+		animation: scroll $animationSpeed linear infinite;
+		display: flex;
+		width: calc(250px * 14);
+	}
+	
+	.slide {
+		height: 80px;
+		width: 250px;
+	}
+}
+
+
+div.git-icon.col {
+  text-align: right;
+  margin-top: 25px;
+}
+
+div.git-icon.col img {
+  border-radius: 10px;
+  height: 100px;
+  width: 100px;
+  box-shadow: rgba(1, 1, 1, 0.35) 0px 15px 25px;
+}
+
+
+
+.linkedin-icon {
+  text-align: left;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.linkedin-icon img {
+  border-radius: 10px;
+  height: 100px;
+  width: 100px;
+  box-shadow: rgba(1, 1, 1, 0.35) 0px 15px 25px;
+  
+}
+
+.contact-email {
+  margin-top: 60px; 
+}
+
+
+
