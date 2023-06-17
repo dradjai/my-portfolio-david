@@ -20,7 +20,7 @@ export default function Panel({element: {title, content, url, image}}) {
       </div>
       
     
-      <Modal show={show} onHide={toggleShow} size="lg" centered>
+      <Modal show={show} onHide={toggleShow} size="md" centered>
       
         <Modal.Body>
           <Container>

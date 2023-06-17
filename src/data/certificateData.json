@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "image": "/images/JavaCert.png"
+  },
+  {
+    "id": 2,
+    "image": "/images/JavaHackerrank.png"
+  },
+  {
+    "id": 3,
+    "image": "/images/SoftwareEngineeringCert.png"
+  },
+  {
+    "id": 4,
+    "image": "/images/ReactHooks.png"
+  },
+  {
+    "id": 5,
+    "image": "/images/HowToPlanWebsite.png"
+  },
+  {
+    "id": 6,
+    "image": "/images/ReactHooks.png"
+  },
+  {
+    "id": 7,
+    "image": "/images/FigmaEssentials.png"
+  }
+
+]
