@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Col, Container, Image, Modal, Row } from "react-bootstrap";
+import { Col, Image, Modal } from "react-bootstrap";
 
 export default function CertPanel({element: {id, image}}) {
 
@@ -10,23 +10,11 @@ export default function CertPanel({element: {id, image}}) {
 
  
       <Col className="cert-col" xs={11} md={6} lg={4}>
-   
         <div onClick={toggleShow}>
           <Image src={image} className="image" fluid/>
         </div>
-   
- 
-          <Modal show={show} onHide={toggleShow} size="md" centered>
-          
-            <Modal.Body>
-              <Container>
-                <Row>
-                  <Col>
-                    <Image src={image} className="image" fluid/>
-                  </Col>
-                </Row>
-              </Container>
-            </Modal.Body>
+          <Modal show={show} onHide={toggleShow} className="d-flex justify-content-center" size="lg" centered>
+            <Image src={image} width="500"/>
           </Modal>
 
         </Col>

@@ -6,7 +6,7 @@ export default function List() {
 
   return(
     <Container>
-      <Row>
+      <Row className="d-flex justify-content-center"> 
         {data.map((element, index) => {
           return(
             <Panel element={element}/>
